@@ -34,9 +34,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-            "https://my-app-ten-lake-87.vercel.app"
-        ));
-
+        	    "https://my-20bg85788-vicky12312s-projects.vercel.app"
+        	));
         configuration.setAllowedMethods(List.of(
             "GET",
             "POST",
