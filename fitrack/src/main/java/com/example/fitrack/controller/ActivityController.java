@@ -19,7 +19,6 @@ import com.example.fitrack.service.UserLogService;
 
 @RestController
 @RequestMapping("/api/activity")
-@CrossOrigin(origins = "http://localhost:3000")
 public class ActivityController {
 
     private final ActivityService activityService;

@@ -20,7 +20,6 @@ import com.example.fitrack.service.UserLogService;
 
 @RestController
 @RequestMapping("/api/calories")
-@CrossOrigin(origins = "http://localhost:3000")
 public class CalorieController {
 
     private final CalorieService calorieService;
