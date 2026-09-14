@@ -1,0 +1,15 @@
+# ===== FRONTEND (React) =====
+node_modules/
+build/
+.env
+
+# ===== BACKEND (Spring Boot / Java) =====
+target/
+*.class
+*.log
+.idea/
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
